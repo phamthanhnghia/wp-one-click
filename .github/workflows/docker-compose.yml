@@ -19,6 +19,13 @@ jobs:
     - name: Set up Docker
       uses: docker/setup-buildx-action@v2
 
+    - name: Install Docker Compose
+      run: |
+        DOCKER_COMPOSE_VERSION=2.20.2
+        sudo curl -L "https://github.com/docker/compose/releases/download/v${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+        sudo chmod +x /usr/local/bin/docker-compose
+        docker-compose version
+
     - name: Validate Docker Compose file
       run: docker-compose config
 
