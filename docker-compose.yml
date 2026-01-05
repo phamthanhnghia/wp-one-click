@@ -5,7 +5,6 @@
 # MYSQL_PASSWORD=<something>
 # MYSQL_ROOT_PASSWORD=<something>
 #
-version: "3.8"
 
 services:
 
@@ -50,7 +49,8 @@ services:
     image: wordpress:latest
     restart: unless-stopped
     ports:
-      - 8080:80
+      - 8833:80
+    # user: "33:33"  # UID:GID của www-data để fix permission
     env_file: .env
     environment:
       WORDPRESS_DB_HOST: database:3306 # use the same name as database service
@@ -58,7 +58,7 @@ services:
       WORDPRESS_DB_USER: '${MYSQL_USER}'
       WORDPRESS_DB_PASSWORD: '${MYSQL_PASSWORD}'
     volumes:
-      - ./wp-content:/var/www/html/wp-content
+      - ./wordpress:/var/www/html
       - ./custom-php.ini:/usr/local/etc/php/conf.d/custom-php.ini
     networks:
       - wordpress-network
