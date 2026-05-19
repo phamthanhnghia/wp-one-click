@@ -37,4 +37,9 @@ Then edit `.env` and replace the example passwords.
 
 phpMyAdmin is available at http://localhost:8081.
 
+If files under `wordpress/wp-content` are not editable from your host editor after Docker writes them, run:
+```
+    ./fix-wp-content-permissions.sh
+```
+
 Remember, this is the simple version of the instructions. Depending on your operating system and current software, these instructions may vary slightly.
