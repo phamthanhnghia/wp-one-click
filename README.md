@@ -1,12 +1,12 @@
 
 
-## WP One Click - A Dockerized Wordpress Solution
+## WP One Click - A Dockerized WordPress Solution
 
-This project provides a simple way to set up a Wordpress site on your local machine using Docker.
+This project provides a simple way to set up a WordPress site on your local machine using Docker.
 
 **Prerequisites**
 
- - Make sure you have Docker and Docker-compose installed on your machine. If not, you can download and install from Docker's official site.
+ - Make sure you have Docker and Docker Compose installed on your machine.
  
 **Quick start guide**
 
@@ -18,7 +18,13 @@ This project provides a simple way to set up a Wordpress site on your local mach
 ```
     cd wp-one-click
 ```
-3. Set up the Docker containers:
+3. Create your local environment file:
+```
+    cp .env.example .env
+```
+Then edit `.env` and replace the example passwords.
+
+4. Set up the Docker containers:
 ```
     ./up.sh
 ```
@@ -27,8 +33,8 @@ This project provides a simple way to set up a Wordpress site on your local mach
 ```
     chmod +x up.sh
 ```
-4. After the Docker containers are set up, open your web browser and visit http://localhost:8080. You should now see your Wordpress site.
+5. After the Docker containers are set up, open your web browser and visit http://localhost:8833. You should now see your WordPress site.
 
-Remember, this is the simple version of the instructions. Depending on your operating system and current software, these instructions may vary slightly. Enjoy your new Wordpress site!
+phpMyAdmin is available at http://localhost:8081.
 
-Note: Please don't forget to modify the `.env` file with your custom settings before running the `up.sh` script.
+Remember, this is the simple version of the instructions. Depending on your operating system and current software, these instructions may vary slightly.

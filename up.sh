@@ -1,1 +1,4 @@
-docker-compose up -d
+#!/usr/bin/env sh
+set -eu
+
+docker compose up -d
