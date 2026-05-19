@@ -13,7 +13,7 @@ services:
     networks:
       - wordpress-network
     healthcheck:
-      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      test: ["CMD-SHELL", "mariadb-admin ping -h localhost -u\"$${MYSQL_USER}\" -p\"$${MYSQL_PASSWORD}\" --silent"]
       interval: 10s
       timeout: 5s
       retries: 10
