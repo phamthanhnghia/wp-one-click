@@ -1,0 +1,1956 @@
+# Copyright (C) 2024 UX-Themes
+# This file is distributed under the https://themeforest.net/licenses.
+msgid ""
+msgstr ""
+"Project-Id-Version: l10n-flatsome\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/flatsome\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-16T13:56:13+00:00\n"
+"PO-Revision-Date: 2024-12-16 14:00\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: flatsome\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: l10n-flatsome\n"
+"X-Crowdin-Project-ID: 561865\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /master/flatsome/languages/flatsome.pot\n"
+"X-Crowdin-File-ID: 2957\n"
+"Language: vi_VN\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/admin/admin-notice.php:75
+msgid "Flatsome"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "http://flatsome.uxthemes.com"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Multi-Purpose Responsive WooCommerce Theme"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "UX-Themes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://uxthemes.com"
+msgstr ""
+
+#: 404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Rất tiếc! Không tìm thấy trang."
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Dường như không có gì được tìm thấy tại vị trí này. Có thể thử một trong các liên kết bên dưới hoặc tìm kiếm?"
+
+#. translators: %1$s: Comment count, %2$s: Comment title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bình luận về &ldquo;%2$s&rdquo;"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Điều hướng bình luận"
+
+#: comments.php:51
+msgid "Older Comments"
+msgstr "Bình luận cũ hơn"
+
+#: comments.php:52
+msgid "Newer Comments"
+msgstr "Bình luận mới hơn"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Bình luận đã đóng."
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Bỏ qua nội dung"
+
+#: image.php:27
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Được xuất bản vào <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> tại <a href=\"%3$s\" title=\"Liên kết đến hình ảnh đầy đủ\">%4$s &times; %5$s</a> trong <a href=\"%6$s\" title=\"Quay lại %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:39
+#: image.php:109
+#: inc/structure/structure-posts.php:168
+#: inc/structure/structure-posts.php:197
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: image.php:101
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Đăng bình luận\">Đăng bình luận</a> hoặc để lại trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL trackback cho bài viết của bạn\" rel=\"trackback\">URL trackback</a>."
+
+#: image.php:103
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Bình luận đã bị đóng, nhưng bạn có thể để lại trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL trackback cho bài viết của bạn\" rel=\"trackback\">URL trackback</a>."
+
+#: image.php:105
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackback đã bị đóng, nhưng bạn có thể <a class=\"comment-link\" href=\"#respond\" title=\"Đăng bình luận\">đăng bình luận</a>."
+
+#: image.php:107
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Cả bình luận và trackback hiện đều bị đóng."
+
+#: image.php:114
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Trước"
+
+#: image.php:115
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tiếp theo <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/admin/admin-bar.php:94
+msgid "Activate Theme"
+msgstr "Kích hoạt giao diện"
+
+#: inc/admin/admin-notice.php:21
+msgid "<a href=\"%s\">Please enter your purchase code</a> to activate Flatsome and get one-click updates."
+msgstr "<a href=\"%s\">Vui lòng nhập mã mua hàng của bạn</a> để kích hoạt Flatsome và nhận các bản cập nhật bằng một cú nhấp chuột."
+
+#: inc/admin/admin-notice.php:32
+msgid "Flatsome issues"
+msgstr "Sự cố Flatsome"
+
+#: inc/admin/admin-notice.php:38
+#: inc/functions/function-site-health.php:53
+msgid "Manage registration"
+msgstr "Quản lý đăng ký"
+
+#: inc/admin/admin-notice.php:43
+#: inc/admin/envato_setup/envato_setup.php:2019
+#: inc/functions/function-site-health.php:58
+#: template-parts/admin/envato/register-form.php:94
+msgid "Manage your licenses"
+msgstr "Quản lý giấy phép của bạn"
+
+#. translators: %1$s: Theme name, %2$s: The URL to the status page.
+#: inc/admin/admin-notice.php:79
+msgid "<strong>Your theme (%1$s) contains outdated copies of some Flatsome template files.</strong> These files may need updating to ensure they are compatible with the current version of Flatsome. Suggestions:"
+msgstr "<strong>Giao diện của bạn (%1$s) chứa các bản sao lỗi thời của một số tệp mẫu Flatsome.</strong> Các tệp này có thể cần cập nhật để đảm bảo chúng tương thích với phiên bản Flatsome hiện tại. Gợi ý:"
+
+#: inc/admin/admin-notice.php:82
+msgid "If you copied over a template file to change something, then you will need to copy the new version of the template and apply your changes again."
+msgstr "Nếu bạn đã sao chép một tệp mẫu để thay đổi điều gì đó, thì bạn sẽ cần sao chép phiên bản mới của mẫu và áp dụng lại các thay đổi của mình."
+
+#: inc/admin/admin-notice.php:83
+msgid "If you are unfamiliar with code/templates and resolving potential conflicts, reach out to a developer for assistance."
+msgstr "Nếu bạn không quen thuộc với mã/mẫu và giải quyết các xung đột tiềm ẩn, hãy liên hệ với nhà phát triển để được hỗ trợ."
+
+#: inc/admin/admin-notice.php:86
+msgid "Learn more about templates"
+msgstr "Tìm hiểu thêm về các mẫu"
+
+#: inc/admin/admin-notice.php:89
+msgid "View affected templates"
+msgstr "Xem các mẫu bị ảnh hưởng"
+
+#: inc/admin/advanced/functions/functions.facebook.php:162
+msgid "Connect Instagram Business accounts"
+msgstr "Kết nối tài khoản Instagram Doanh nghiệp"
+
+#: inc/admin/advanced/functions/functions.facebook.php:169
+#: inc/admin/advanced/functions/functions.facebook.php:178
+msgid "Okay"
+msgstr "Đồng ý"
+
+#: inc/admin/advanced/functions/functions.facebook.php:174
+msgid "No associated Instagram Business account was found for your Facebook user."
+msgstr "Không tìm thấy tài khoản Instagram Doanh nghiệp nào được liên kết với người dùng Facebook của bạn."
+
+#: inc/admin/advanced/functions/functions.facebook.php:229
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: inc/admin/advanced/functions/functions.facebook.php:232
+msgid "Connect"
+msgstr "Kết nối"
+
+#: inc/admin/advanced/functions/functions.php:23
+msgid "Super Admin"
+msgstr "Quản trị viên cấp cao"
+
+#: inc/admin/backend/menu/class-menu.php:89
+msgid "Flatsome menu item options"
+msgstr "Tùy chọn mục menu Flatsome"
+
+#: inc/admin/backend/menu/class-menu.php:93
+msgid "Menu dropdown"
+msgstr "Menu thả xuống"
+
+#: inc/admin/backend/menu/class-menu.php:96
+msgid "Design"
+msgstr "Thiết kế"
+
+#: inc/admin/backend/menu/class-menu.php:98
+msgid "Default"
+msgstr "Mặc định"
+
+#: inc/admin/backend/menu/class-menu.php:99
+msgid "Default (custom size)"
+msgstr "Mặc định (kích thước tùy chỉnh)"
+
+#: inc/admin/backend/menu/class-menu.php:100
+msgid "Container width"
+msgstr "Chiều rộng vùng chứa"
+
+#: inc/admin/backend/menu/class-menu.php:101
+msgid "Full width"
+msgstr "Toàn chiều rộng"
+
+#: inc/admin/backend/menu/class-menu.php:104
+msgid "Select dropdown design."
+msgstr "Chọn thiết kế menu thả xuống."
+
+#: inc/admin/backend/menu/class-menu.php:108
+#: inc/admin/backend/menu/class-menu.php:159
+#: inc/admin/options/header/options-header-nav-vertical.php:55
+#: inc/admin/options/header/options-header-nav-vertical.php:146
+msgid "Width"
+msgstr "Chiều rộng"
+
+#: inc/admin/backend/menu/class-menu.php:114
+msgid "Height (optional)"
+msgstr "Chiều cao (tùy chọn)"
+
+#: inc/admin/backend/menu/class-menu.php:120
+#: inc/widgets/widget-blocks.php:88
+msgid "UX Block"
+msgstr "Khối UX"
+
+#: inc/admin/backend/menu/class-menu.php:132
+msgid "Reveal"
+msgstr "Hiển thị"
+
+#: inc/admin/backend/menu/class-menu.php:134
+msgid "On hover"
+msgstr "Khi di chuột"
+
+#: inc/admin/backend/menu/class-menu.php:135
+msgid "On click"
+msgstr "Khi nhấp chuột"
+
+#: inc/admin/backend/menu/class-menu.php:141
+msgid "Menu icon"
+msgstr "Biểu tượng menu"
+
+#: inc/admin/backend/menu/class-menu.php:144
+msgid "Icon type"
+msgstr "Loại biểu tượng"
+
+#: inc/admin/backend/menu/class-menu.php:146
+msgid "Media library"
+msgstr "Thư viện phương tiện"
+
+#: inc/admin/backend/menu/class-menu.php:147
+msgid "Custom content"
+msgstr "Nội dung tùy chỉnh"
+
+#: inc/admin/backend/menu/class-menu.php:163
+#: inc/admin/options/header/options-header-nav-vertical.php:41
+msgid "Height"
+msgstr "Chiều cao"
+
+#: inc/admin/backend/menu/class-menu.php:166
+msgid "Icons default (empty) to 20x20."
+msgstr "Biểu tượng mặc định (trống) là 20x20."
+
+#: inc/admin/backend/menu/class-menu.php:171
+msgid "Markup"
+msgstr "Đánh dấu"
+
+#: inc/admin/backend/menu/class-menu.php:174
+msgid "Add any HTML, SVG or shortcode here."
+msgstr "Thêm bất kỳ HTML, SVG hoặc mã ngắn nào tại đây."
+
+#: inc/admin/backend/menu/class-menu.php:245
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:237
+msgid "Select image"
+msgstr "Chọn hình ảnh"
+
+#: inc/admin/backend/menu/class-menu.php:250
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:238
+msgid "Remove"
+msgstr "Xóa"
+
+#: inc/admin/classes/class-features.php:30
+msgid "Features"
+msgstr "Tính năng"
+
+#: inc/admin/classes/class-features.php:37
+msgid "Experimental features"
+msgstr "Tính năng thử nghiệm"
+
+#: inc/admin/classes/class-features.php:81
+msgid "There are currently no experimental features in development."
+msgstr "Hiện không có tính năng thử nghiệm nào đang được phát triển."
+
+#: inc/admin/classes/class-features.php:83
+msgid "Features that are testable while they're in development. These features are likely to change, so avoid using them in production."
+msgstr "Các tính năng có thể kiểm tra trong khi chúng đang được phát triển. Những tính năng này có khả năng thay đổi, vì vậy tránh sử dụng chúng trong sản xuất."
+
+#. translators: %s: PHP version.
+#: inc/admin/classes/class-features.php:132
+msgid "This feature requires PHP version %s or higher."
+msgstr "Tính năng này yêu cầu phiên bản PHP %s trở lên."
+
+#. translators: %s: WordPress version.
+#: inc/admin/classes/class-features.php:136
+msgid "This feature requires WordPress version %s or higher."
+msgstr "Tính năng này yêu cầu phiên bản WordPress %s trở lên."
+
+#: inc/admin/classes/class-status.php:559
+#: inc/admin/classes/class-status.php:587
+msgid "Theme"
+msgstr "Giao diện"
+
+#: inc/admin/classes/class-status.php:560
+#: inc/admin/classes/class-status.php:700
+msgid "WordPress environment"
+msgstr "Môi trường WordPress"
+
+#: inc/admin/classes/class-status.php:561
+#: inc/admin/classes/class-status.php:812
+msgid "Server environment"
+msgstr "Môi trường máy chủ"
+
+#: inc/admin/classes/class-status.php:562
+#: inc/admin/classes/class-status.php:894
+#: inc/functions/function-site-health.php:31
+msgid "Security"
+msgstr "Bảo mật"
+
+#: inc/admin/classes/class-status.php:563
+#: inc/admin/classes/class-status.php:950
+msgid "Database"
+msgstr "Cơ sở dữ liệu"
+
+#: inc/admin/classes/class-status.php:564
+#: inc/admin/classes/class-status.php:988
+msgid "Templates"
+msgstr "Mẫu"
+
+#: inc/admin/classes/class-status.php:568
+msgid "More details"
+msgstr "Thêm chi tiết"
+
+#: inc/admin/classes/class-status.php:593
+msgid "Name"
+msgstr "Tên"
+
+#: inc/admin/classes/class-status.php:595
+msgid "The name of the current active theme."
+msgstr "Tên của giao diện đang hoạt động."
+
+#: inc/admin/classes/class-status.php:600
+msgid "Version"
+msgstr "Phiên bản"
+
+#: inc/admin/classes/class-status.php:602
+msgid "The version of the current active theme."
+msgstr "Phiên bản của giao diện đang hoạt động."
+
+#: inc/admin/classes/class-status.php:607
+msgid "Author URL"
+msgstr "URL của tác giả"
+
+#: inc/admin/classes/class-status.php:609
+msgid "The theme developers URL."
+msgstr "URL của nhà phát triển giao diện."
+
+#: inc/admin/classes/class-status.php:614
+msgid "Registered"
+msgstr "Đã đăng ký"
+
+#: inc/admin/classes/class-status.php:616
+msgid "Displays whether or not the theme is registered."
+msgstr "Hiển thị giao diện có được đăng ký hay không."
+
+#: inc/admin/classes/class-status.php:623
+msgid "You should register Flatsome with a purchase code"
+msgstr "Bạn nên đăng ký Flatsome bằng mã mua hàng"
+
+#: inc/admin/classes/class-status.php:629
+msgid "Child theme"
+msgstr "Giao diện con"
+
+#: inc/admin/classes/class-status.php:631
+msgid "Displays whether or not the current active theme is a child theme."
+msgstr "Hiển thị giao diện đang hoạt động có phải là giao diện con hay không."
+
+#. translators: %s: Docs link.
+#: inc/admin/classes/class-status.php:639
+msgid "If you are modifying Flatsome on the parent theme we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
+msgstr "Nếu bạn đang sửa đổi Flatsome trên giao diện cha, chúng tôi khuyên bạn nên sử dụng giao diện con. Xem: <a href=\"%s\" target=\"_blank\">Cách tạo giao diện con</a>"
+
+#: inc/admin/classes/class-status.php:645
+msgid "Release channel"
+msgstr "Kênh phát hành"
+
+#: inc/admin/classes/class-status.php:647
+msgid "Which updates to receive on this site."
+msgstr "Cập nhật nào sẽ nhận được trên trang web này."
+
+#: inc/admin/classes/class-status.php:661
+msgid "Parent theme name"
+msgstr "Tên giao diện cha"
+
+#: inc/admin/classes/class-status.php:663
+msgid "The name of the parent theme."
+msgstr "Tên của giao diện cha."
+
+#: inc/admin/classes/class-status.php:668
+msgid "Parent theme version"
+msgstr "Phiên bản giao diện cha"
+
+#: inc/admin/classes/class-status.php:670
+msgid "The installed version of the parent theme."
+msgstr "Phiên bản đã cài đặt của giao diện cha."
+
+#: inc/admin/classes/class-status.php:675
+msgid "Parent theme author URL"
+msgstr "URL tác giả của giao diện cha"
+
+#: inc/admin/classes/class-status.php:677
+msgid "The parent theme developers URL."
+msgstr "URL của nhà phát triển giao diện cha."
+
+#: inc/admin/classes/class-status.php:706
+msgid "WordPress version"
+msgstr "Phiên bản WordPress"
+
+#: inc/admin/classes/class-status.php:708
+msgid "The installed WordPress version (indicates the fulfillment of the minimum required version)."
+msgstr "Phiên bản WordPress đã cài đặt (cho biết việc đáp ứng phiên bản tối thiểu bắt buộc)."
+
+#. translators: %s: The minimum required WP version number.
+#: inc/admin/classes/class-status.php:717
+msgid "The theme requires WordPress version %s or above."
+msgstr "Giao diện yêu cầu phiên bản WordPress %s trở lên."
+
+#: inc/admin/classes/class-status.php:729
+msgid "WooCommerce version"
+msgstr "Phiên bản WooCommerce"
+
+#: inc/admin/classes/class-status.php:731
+msgid "The installed WooCommerce version (indicates the fulfillment of the minimum required version)."
+msgstr "Phiên bản WooCommerce đã cài đặt (cho biết việc đáp ứng phiên bản tối thiểu bắt buộc)."
+
+#. translators: %s: The minimum required WC version number.
+#: inc/admin/classes/class-status.php:740
+msgid "The theme requires WooCommerce version %s or above."
+msgstr "Giao diện yêu cầu phiên bản WooCommerce %s trở lên."
+
+#: inc/admin/classes/class-status.php:752
+msgid "WordPress memory limit"
+msgstr "Giới hạn bộ nhớ WordPress"
+
+#: inc/admin/classes/class-status.php:754
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "Lượng bộ nhớ tối đa (RAM) mà trang web của bạn có thể sử dụng tại một thời điểm."
+
+#. translators: %1$s: Memory limit, %2$s: Docs link.
+#: inc/admin/classes/class-status.php:761
+msgid "%1$s - We recommend setting memory to at least 256MB. See: %2$s"
+msgstr "%1$s - Chúng tôi khuyên bạn nên đặt bộ nhớ tối thiểu là 256MB. Xem: %2$s"
+
+#. translators: %1$s: Memory limit, %2$s: Docs link.
+#: inc/admin/classes/class-status.php:761
+msgid "Increasing memory allocated to PHP"
+msgstr "Tăng bộ nhớ được cấp phát cho PHP"
+
+#: inc/admin/classes/class-status.php:768
+msgid "WordPress image sizes"
+msgstr "Kích thước hình ảnh WordPress"
+
+#: inc/admin/classes/class-status.php:770
+msgid "The image sizes that are registered on this site."
+msgstr "Kích thước hình ảnh được đăng ký trên trang web này."
+
+#: inc/admin/classes/class-status.php:818
+msgid "Server info"
+msgstr "Thông tin máy chủ"
+
+#: inc/admin/classes/class-status.php:819
+msgid "Information about the web server that is currently hosting your site."
+msgstr "Thông tin về máy chủ web hiện đang lưu trữ trang web của bạn."
+
+#: inc/admin/classes/class-status.php:823
+msgid "PHP version"
+msgstr "Phiên bản PHP"
+
+#: inc/admin/classes/class-status.php:825
+msgid "The version of PHP installed on your hosting server."
+msgstr "Phiên bản PHP được cài đặt trên máy chủ lưu trữ của bạn."
+
+#. translators: %s: The recommended PHP version number.
+#: inc/admin/classes/class-status.php:837
+msgid "We recommend using PHP version %s or above for greater performance and security."
+msgstr "Chúng tôi khuyên bạn nên sử dụng PHP phiên bản %s trở lên để có hiệu suất và bảo mật tốt hơn."
+
+#: inc/admin/classes/class-status.php:848
+msgid "PHP post max size"
+msgstr "Kích thước tối đa bài đăng PHP"
+
+#: inc/admin/classes/class-status.php:850
+msgid "The largest filesize that can be contained in one post."
+msgstr "Kích thước tệp lớn nhất có thể được chứa trong một bài đăng."
+
+#: inc/admin/classes/class-status.php:855
+msgid "PHP time limit"
+msgstr "Giới hạn thời gian PHP"
+
+#: inc/admin/classes/class-status.php:857
+msgid "The amount of time (in seconds) that your site will spend on a single operation before timing out (to avoid server lockups)."
+msgstr "Khoảng thời gian (tính bằng giây) mà trang web của bạn sẽ dành cho một thao tác duy nhất trước khi hết thời gian chờ (để tránh máy chủ bị khóa)."
+
+#: inc/admin/classes/class-status.php:862
+msgid "PHP max input variables"
+msgstr "Số biến đầu vào tối đa của PHP"
+
+#: inc/admin/classes/class-status.php:864
+msgid "The maximum number of variables your server can use for a single function to avoid overloads."
+msgstr "Số lượng biến tối đa mà máy chủ của bạn có thể sử dụng cho một hàm duy nhất để tránh quá tải."
+
+#: inc/admin/classes/class-status.php:870
+msgid "Max upload size"
+msgstr "Kích thước tải lên tối đa"
+
+#: inc/admin/classes/class-status.php:872
+msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgstr "Kích thước tệp lớn nhất có thể được tải lên cài đặt WordPress của bạn."
+
+#: inc/admin/classes/class-status.php:900
+msgid "Secure connection (HTTPS)"
+msgstr "Kết nối bảo mật (HTTPS)"
+
+#: inc/admin/classes/class-status.php:902
+msgid "Is the connection to your site secure?"
+msgstr "Kết nối đến trang web của bạn có an toàn không?"
+
+#. translators: %s: Docs link.
+#: inc/admin/classes/class-status.php:911
+msgid "Your site is not using HTTPS. <a href=\"%s\" target=\"_blank\">Learn more about HTTPS and SSL Certificates</a>."
+msgstr "Trang web của bạn không sử dụng HTTPS. <a href=\"%s\" target=\"_blank\">Tìm hiểu thêm về HTTPS và Chứng chỉ SSL</a>."
+
+#: inc/admin/classes/class-status.php:918
+msgid "Hide errors from visitors"
+msgstr "Ẩn lỗi khỏi khách truy cập"
+
+#: inc/admin/classes/class-status.php:920
+msgid "Error messages can contain sensitive information about your site environment. These should be hidden from untrusted visitors."
+msgstr "Thông báo lỗi có thể chứa thông tin nhạy cảm về môi trường trang web của bạn. Những thông tin này nên được ẩn khỏi những khách truy cập không đáng tin cậy."
+
+#: inc/admin/classes/class-status.php:927
+msgid "Error messages should not be shown to visitors."
+msgstr "Thông báo lỗi không nên hiển thị cho khách truy cập."
+
+#: inc/admin/classes/class-status.php:956
+msgid "Flatsome database version"
+msgstr "Phiên bản cơ sở dữ liệu Flatsome"
+
+#: inc/admin/classes/class-status.php:958
+msgid "The database version for Flatsome. This should be the same as the parent theme version."
+msgstr "Phiên bản cơ sở dữ liệu cho Flatsome. Điều này phải giống với phiên bản giao diện cha."
+
+#: inc/admin/classes/class-status.php:965
+msgid "This should be the same as the parent theme version."
+msgstr "Điều này phải giống với phiên bản giao diện cha."
+
+#: inc/admin/classes/class-status.php:994
+msgid "Overrides"
+msgstr "Ghi đè"
+
+#: inc/admin/classes/class-status.php:995
+msgid "This section shows any files that are overriding the default Flatsome templates."
+msgstr "Phần này hiển thị bất kỳ tệp nào đang ghi đè các mẫu Flatsome mặc định."
+
+#. translators: %1$s: Template name, %2$s: Template version, %3$s: Core version.
+#: inc/admin/classes/class-status.php:1008
+msgid "%1$s version %2$s is out of date. The core version is %3$s"
+msgstr "Phiên bản %1$s %2$s đã lỗi thời. Phiên bản cốt lõi là %3$s"
+
+#: inc/admin/envato_setup/envato_setup.php:2012
+msgid "Register Theme"
+msgstr "Đăng ký giao diện"
+
+#: inc/admin/envato_setup/envato_setup.php:2037
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: inc/admin/envato_setup/envato_setup.php:2038
+msgid "Unregister"
+msgstr "Hủy đăng ký"
+
+#: inc/admin/envato_setup/envato_setup.php:2040
+msgid "Register"
+msgstr "Đăng ký"
+
+#: inc/admin/gutenberg/class-gutenberg.php:119
+msgid "Edit with UX Builder"
+msgstr "Chỉnh sửa bằng UX Builder"
+
+#: inc/admin/options/blog/options-blog-single.php:85
+msgid "Featured image"
+msgstr "Hình ảnh nổi bật"
+
+#: inc/admin/options/blog/options-blog-single.php:101
+msgid "Share icons"
+msgstr "Biểu tượng chia sẻ"
+
+#: inc/admin/options/blog/options-blog-single.php:109
+msgid "Meta"
+msgstr "Siêu dữ liệu"
+
+#: inc/admin/options/blog/options-blog-single.php:117
+msgid "Blog author box"
+msgstr "Hộp tác giả blog"
+
+#: inc/admin/options/blog/options-blog-single.php:125
+msgid "Next/Prev navigation"
+msgstr "Điều hướng tiếp theo/trước"
+
+#: inc/admin/options/blog/options-blog-single.php:133
+msgid "HTML after blog posts"
+msgstr "HTML sau bài đăng trên blog"
+
+#: inc/admin/options/header/options-header-cart.php:115
+msgid "Show quantity input"
+msgstr "Hiển thị ô nhập số lượng"
+
+#: inc/admin/options/header/options-header-cart.php:125
+#: inc/admin/options/shop/options-shop-cart-checkout.php:81
+#: inc/admin/options/shop/options-shop-cart-checkout.php:258
+msgid "Show free shipping"
+msgstr "Hiển thị thông tin miễn phí vận chuyển"
+
+#: inc/admin/options/header/options-header-cart.php:156
+#: inc/admin/options/styles/options-lightbox.php:30
+msgid "Drawer width"
+msgstr "Chiều rộng ngăn kéo"
+
+#: inc/admin/options/header/options-header-cart.php:165
+msgid "Sticky footer"
+msgstr "Chân trang cố định"
+
+#: inc/admin/options/header/options-header-cart.php:175
+msgid "Show cross sells"
+msgstr "Hiển thị bán chéo"
+
+#: inc/admin/options/header/options-header-logo.php:106
+msgid "Logo link"
+msgstr "Liên kết logo"
+
+#: inc/admin/options/header/options-header-logo.php:107
+msgid "Custom logo link (defaults to home page link if empty)."
+msgstr "Liên kết logo tùy chỉnh (mặc định là liên kết trang chủ nếu trống)."
+
+#: inc/admin/options/header/options-header-mobile.php:100
+msgid "Menu item behavior"
+msgstr "Hành vi mục menu"
+
+#: inc/admin/options/header/options-header-mobile.php:101
+msgid "Click behavior for menu items with a submenu"
+msgstr "Hành vi nhấp chuột cho các mục menu có menu con"
+
+#: inc/admin/options/header/options-header-mobile.php:106
+msgid "Open link"
+msgstr "Mở liên kết"
+
+#: inc/admin/options/header/options-header-mobile.php:107
+msgid "Toggle submenu"
+msgstr "Chuyển đổi menu con"
+
+#: inc/admin/options/header/options-header-mobile.php:114
+msgid "Submenu effect"
+msgstr "Hiệu ứng menu con"
+
+#: inc/admin/options/header/options-header-mobile.php:119
+msgid "Accordion"
+msgstr "Kiểu xếp chồng"
+
+#: inc/admin/options/header/options-header-mobile.php:120
+msgid "Slide"
+msgstr "Kiểu trượt"
+
+#: inc/admin/options/header/options-header-mobile.php:134
+msgid "Submenu levels"
+msgstr "Cấp độ menu con"
+
+#: inc/admin/options/header/options-header-mobile.php:139
+msgid "1 level"
+msgstr "1 cấp độ"
+
+#: inc/admin/options/header/options-header-mobile.php:140
+msgid "2 levels"
+msgstr "2 cấp độ"
+
+#: inc/admin/options/header/options-header-mobile.php:159
+msgid "Top content"
+msgstr "Nội dung trên cùng"
+
+#: inc/admin/options/header/options-header-mobile.php:168
+msgid "Tabs"
+msgstr "Thẻ"
+
+#: inc/admin/options/header/options-header-mobile.php:172
+msgid "None"
+msgstr "Không có"
+
+#: inc/admin/options/header/options-header-mobile.php:173
+msgid "2 Tabs"
+msgstr "2 Thẻ"
+
+#: inc/admin/options/header/options-header-mobile.php:180
+msgid "Tab 1 text"
+msgstr "Văn bản Thẻ 1"
+
+#: inc/admin/options/header/options-header-mobile.php:195
+msgid "Menu elements"
+msgstr "Yếu tố menu"
+
+#: inc/admin/options/header/options-header-mobile.php:206
+msgid "Tab 2 text"
+msgstr "Văn bản Thẻ 2"
+
+#: inc/admin/options/header/options-header-mobile.php:221
+msgid "Menu elements tab 2"
+msgstr "Yếu tố menu thẻ 2"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:9
+#: inc/functions/function-setup.php:120
+msgid "Vertical Menu"
+msgstr "Menu dọc"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:28
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:69
+msgid "Tag line"
+msgstr "Dòng tiêu đề"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:78
+msgid "Text"
+msgstr "Văn bản"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:87
+#: inc/admin/options/header/options-header-nav-vertical.php:201
+msgid "Text base color"
+msgstr "Màu nền văn bản"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:101
+msgid "Color"
+msgstr "Màu sắc"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:111
+#: inc/admin/options/header/options-header-nav-vertical.php:161
+msgid "Background color"
+msgstr "Màu nền"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:128
+msgid "Keep open on front page"
+msgstr "Giữ mở trên trang chủ"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:137
+msgid "Add shadow"
+msgstr "Thêm bóng đổ"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:178
+msgid "Divider"
+msgstr "Dấu phân cách"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:187
+msgid "Nav height"
+msgstr "Chiều cao thanh điều hướng"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:215
+msgid "Nav color"
+msgstr "Màu thanh điều hướng"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:225
+msgid "Nav color :hover"
+msgstr "Màu thanh điều hướng: di chuột"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:235
+msgid "Nav background color :hover"
+msgstr "Màu nền thanh điều hướng: di chuột"
+
+#: inc/admin/options/notifications/options-notifications.php:140
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:39
+msgid "This site uses cookies to offer you a better browsing experience. By browsing this website, you agree to our use of cookies."
+msgstr "Trang web này sử dụng cookie để mang đến cho bạn trải nghiệm duyệt web tốt hơn. Bằng cách duyệt trang web này, bạn đồng ý với việc chúng tôi sử dụng cookie."
+
+#: inc/admin/options/portfolio/options-portfolio.php:76
+msgid "Show share icons"
+msgstr "Hiển thị biểu tượng chia sẻ"
+
+#: inc/admin/options/shop/options-shop-cart-checkout.php:65
+msgid "Boxed Shipping labels"
+msgstr "Nhãn vận chuyển đóng khung"
+
+#: inc/admin/options/shop/options-shop-cart-checkout.php:73
+msgid "Show shipping estimate destination"
+msgstr "Hiển thị điểm đến ước tính vận chuyển"
+
+#: inc/admin/options/shop/options-shop-category.php:261
+msgid "Show result count"
+msgstr "Hiển thị số lượng kết quả"
+
+#: inc/admin/options/shop/options-shop-category.php:270
+msgid "Show catalog ordering"
+msgstr "Hiển thị sắp xếp danh mục"
+
+#: inc/admin/options/shop/options-shop-category.php:766
+#: inc/admin/options/shop/options-shop-product-page.php:488
+msgid "Color :selected"
+msgstr "Màu sắc: đã chọn"
+
+#: inc/admin/options/shop/options-shop-product-page.php:40
+#: inc/woocommerce/structure-wc-category-page.php:141
+#: inc/woocommerce/structure-wc-product-page-fields.php:22
+msgid "Custom product layout"
+msgstr "Bố cục sản phẩm tùy chỉnh"
+
+#: inc/admin/options/shop/options-shop-product-page.php:449
+msgid "Layout"
+msgstr "Bố cục"
+
+#: inc/admin/options/shop/options-shop-product-page.php:461
+msgid "Tooltip"
+msgstr "Chú giải công cụ"
+
+#: inc/admin/options/shop/options-shop-product-page.php:462
+msgid "Show a tooltip with the term or term description."
+msgstr "Hiển thị chú giải công cụ với thuật ngữ hoặc mô tả thuật ngữ."
+
+#: inc/admin/options/shop/options-shop-product-page.php:470
+msgid "Inactive out of stock"
+msgstr "Không hoạt động khi hết hàng"
+
+#: inc/admin/options/shop/options-shop-product-page.php:471
+msgid "Show out of stock items as inactive."
+msgstr "Hiển thị các mặt hàng hết hàng là không hoạt động."
+
+#: inc/admin/options/shop/options-shop-product-page.php:479
+msgid "Disable deselection"
+msgstr "Tắt bỏ chọn"
+
+#: inc/admin/options/social/options-social.php:75
+#: inc/admin/options/social/options-social.php:153
+#: inc/shortcodes/follow.php:187
+msgctxt "social media"
+msgid "X"
+msgstr "X"
+
+#: inc/admin/options/styles/options-colors.php:144
+msgid "Tooltip colors"
+msgstr "Màu sắc chú giải công cụ"
+
+#: inc/admin/options/styles/options-colors.php:150
+msgid "Tooltip color"
+msgstr "Màu chú giải công cụ"
+
+#: inc/admin/options/styles/options-colors.php:159
+msgid "Tooltip background color"
+msgstr "Màu nền chú giải công cụ"
+
+#: inc/admin/panel/sections/tab-activate.php:12
+msgid "Theme registration"
+msgstr "Đăng ký giao diện"
+
+#: inc/admin/panel/sections/tab-activate.php:17
+msgid "Status"
+msgstr "Trạng thái"
+
+#: inc/classes/class-flatsome-base-registration.php:49
+#: inc/classes/class-flatsome-base-registration.php:58
+#: inc/classes/class-flatsome-base-registration.php:67
+#: inc/classes/class-flatsome-base-registration.php:77
+msgid "Not allowed."
+msgstr "Không được phép."
+
+#. translators: %s: Time left.
+#: inc/classes/class-flatsome-envato-admin.php:152
+msgid "Please try again in %s."
+msgstr "Vui lòng thử lại sau %s."
+
+#: inc/classes/class-flatsome-envato-admin.php:192
+msgid "You must agree to the Envato License Terms."
+msgstr "Bạn phải đồng ý với Điều khoản Giấy phép của Envato."
+
+#: inc/classes/class-flatsome-registration.php:34
+msgid "No purchase code provided."
+msgstr "Không có mã mua hàng nào được cung cấp."
+
+#: inc/classes/class-flatsome-registration.php:36
+msgid "The provided value seems to be a token. Please register with a purchase code instead."
+msgstr "Giá trị được cung cấp dường như là một mã thông báo. Vui lòng đăng ký bằng mã mua hàng."
+
+#: inc/classes/class-flatsome-registration.php:38
+msgid "Invalid purchase code."
+msgstr "Mã mua hàng không hợp lệ."
+
+#: inc/classes/class-flatsome-registration.php:55
+msgid "Your site is registered. But the purchase code could not be verified at the moment."
+msgstr "Trang web của bạn đã được đăng ký. Nhưng mã mua hàng không thể được xác minh vào lúc này."
+
+#: inc/classes/class-flatsome-registration.php:105
+#: inc/classes/class-flatsome-registration.php:148
+msgid "No purchase code."
+msgstr "Không có mã mua hàng."
+
+#: inc/classes/class-flatsome-registration.php:128
+msgid "No version received."
+msgstr "Không nhận được phiên bản."
+
+#: inc/classes/class-flatsome-registration.php:132
+msgid "Invalid version received."
+msgstr "Nhận được phiên bản không hợp lệ."
+
+#: inc/classes/class-flatsome-registration.php:159
+msgid "No URL received."
+msgstr "Không nhận được URL."
+
+#: inc/classes/class-flatsome-registration.php:163
+msgid "Invalid URL received."
+msgstr "Nhận được URL không hợp lệ."
+
+#: inc/classes/class-flatsome-relay.php:230
+#: inc/extensions/flatsome-infinite-scroll/templates/button.php:2
+msgid "Load more"
+msgstr "Tải thêm"
+
+#: inc/classes/class-flatsome-relay.php:241
+#: inc/classes/class-flatsome-relay.php:289
+#: inc/structure/structure-posts.php:303
+#: woocommerce/loop/pagination.php:58
+#: woocommerce/single-product-reviews.php:67
+msgid "Previous"
+msgstr "Trước đó"
+
+#: inc/classes/class-flatsome-relay.php:246
+#: inc/classes/class-flatsome-relay.php:288
+#: inc/structure/structure-posts.php:302
+#: woocommerce/loop/pagination.php:57
+#: woocommerce/single-product-reviews.php:66
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: inc/classes/class-flatsome-wupdates-registration.php:65
+#: inc/classes/class-flatsome-wupdates-registration.php:75
+msgid "Purchase code not verified."
+msgstr "Mã mua hàng chưa được xác minh."
+
+#. translators: %d: The status code.
+#: inc/classes/class-uxthemes-api.php:78
+msgid "Sorry, an error occurred while accessing the API. Error %d"
+msgstr "Xin lỗi, đã xảy ra lỗi khi truy cập API. Lỗi %d"
+
+#: inc/classes/class-uxthemes-api.php:118
+msgid "Your purchase code is malformed."
+msgstr "Mã mua hàng của bạn không đúng định dạng."
+
+#: inc/classes/class-uxthemes-api.php:121
+msgid "Sorry, an error occurred. Please try again."
+msgstr "Xin lỗi, đã xảy ra lỗi. Vui lòng thử lại."
+
+#: inc/classes/class-uxthemes-api.php:124
+msgid "Flatsome was unable to get the latest version. Your site might have changed domain after you registered it."
+msgstr "Flatsome không thể nhận phiên bản mới nhất. Trang web của bạn có thể đã thay đổi tên miền sau khi bạn đăng ký."
+
+#: inc/classes/class-uxthemes-api.php:129
+msgid "Flatsome was unable to get the latest version because the purchase code has not been verified yet. Please re-register it in order to receive updates."
+msgstr "Flatsome không thể nhận phiên bản mới nhất vì mã mua hàng chưa được xác minh. Vui lòng đăng ký lại để nhận bản cập nhật."
+
+#: inc/classes/class-uxthemes-api.php:134
+msgid "The purchase code is malformed or does not belong to a Flatsome sale."
+msgstr "Mã mua hàng không đúng định dạng hoặc không thuộc về giao dịch mua Flatsome."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:138
+msgid "The registration was not found for <a%s>your account</a>. It was only deleted on this site."
+msgstr "Đăng ký không được tìm thấy cho <a%s>tài khoản của bạn</a>. Nó chỉ bị xóa trên trang web này."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:142
+msgid "Flatsome was unable to get the latest version. Your registration might have been deleted from <a%s>your account</a>."
+msgstr "Flatsome không thể nhận phiên bản mới nhất. Đăng ký của bạn có thể đã bị xóa khỏi <a%s>tài khoản của bạn</a>."
+
+#: inc/classes/class-uxthemes-api.php:145
+msgid "Flatsome was unable to get the latest version. Your purchase code is malformed."
+msgstr "Flatsome không thể nhận phiên bản mới nhất. Mã mua hàng của bạn không đúng định dạng."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:151
+msgid "Your purchase code has been used on too many sites. Please go to <a%s>your account</a> and manage your licenses."
+msgstr "Mã mua hàng của bạn đã được sử dụng trên quá nhiều trang web. Vui lòng truy cập <a%s>tài khoản của bạn</a> và quản lý giấy phép của bạn."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:154
+msgid "The purchase code is already registered on another site. Please go to <a%s>your account</a> and manage your licenses."
+msgstr "Mã mua hàng đã được đăng ký trên một trang web khác. Vui lòng truy cập <a%s>tài khoản của bạn</a> và quản lý giấy phép của bạn."
+
+#: inc/classes/class-uxthemes-api.php:157
+msgid "Your purchase code has been blocked. Please contact support to resolve the issue."
+msgstr "Mã mua hàng của bạn đã bị chặn. Vui lòng liên hệ với bộ phận hỗ trợ để giải quyết sự cố."
+
+#: inc/classes/class-uxthemes-api.php:160
+msgid "The purchase code does not belong to a Flatsome sale."
+msgstr "Mã mua hàng không thuộc về giao dịch mua Flatsome."
+
+#: inc/classes/class-uxthemes-api.php:163
+msgid "Flatsome was unable to get the latest version. The purchase code does not belong to a Flatsome sale."
+msgstr "Flatsome không thể nhận phiên bản mới nhất. Mã mua hàng không thuộc về giao dịch mua Flatsome."
+
+#: inc/classes/class-uxthemes-api.php:165
+msgid "The requested resource no longer exists."
+msgstr "Tài nguyên được yêu cầu không còn tồn tại."
+
+#: inc/classes/class-uxthemes-api.php:167
+msgid "No domain was sent with the request."
+msgstr "Không có tên miền nào được gửi kèm theo yêu cầu."
+
+#: inc/classes/class-uxthemes-api.php:169
+msgid "Unable to parse the domain for your site."
+msgstr "Không thể phân tích cú pháp tên miền cho trang web của bạn."
+
+#: inc/classes/class-uxthemes-api.php:172
+msgid "Your purchase code has been locked. Please contact support to resolve the issue."
+msgstr "Mã mua hàng của bạn đã bị khóa. Vui lòng liên hệ với bộ phận hỗ trợ để giải quyết sự cố."
+
+#: inc/classes/class-uxthemes-api.php:174
+msgid "The requested resource has been locked."
+msgstr "Tài nguyên được yêu cầu đã bị khóa."
+
+#: inc/classes/class-uxthemes-api.php:176
+msgid "Sorry, the API is overloaded."
+msgstr "Xin lỗi, API đang bị quá tải."
+
+#: inc/classes/class-uxthemes-api.php:178
+msgid "Sorry, the API is unavailable at the moment."
+msgstr "Xin lỗi, API hiện không khả dụng."
+
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:50
+msgctxt "cookie notice"
+msgid "More info"
+msgstr "Thêm thông tin"
+
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:60
+msgctxt "cookie notice"
+msgid "Accept"
+msgstr "Chấp nhận"
+
+#: inc/extensions/flatsome-live-search/flatsome-live-search.php:200
+msgid "No matches found"
+msgstr "Không tìm thấy kết quả phù hợp"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:87
+msgid "Swatch size"
+msgstr "Kích thước mẫu"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:90
+msgid "X Small"
+msgstr "Cực nhỏ"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:91
+msgid "Small"
+msgstr "Nhỏ"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:92
+msgid "Medium"
+msgstr "Vừa"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:93
+msgid "Large"
+msgstr "Lớn"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:94
+msgid "X Large"
+msgstr "Cực lớn"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:96
+msgid "Determines the size of the swatches."
+msgstr "Xác định kích thước của các mẫu."
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:100
+msgid "Swatch shape"
+msgstr "Hình dạng mẫu"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:103
+msgid "Square"
+msgstr "Hình vuông"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:104
+msgid "Rounded"
+msgstr "Bo tròn"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:105
+msgid "Circle"
+msgstr "Hình tròn"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:107
+msgid "Determines the shape of the swatches."
+msgstr "Xác định hình dạng của các mẫu."
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:111
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:112
+msgid "Use variation images?"
+msgstr "Sử dụng hình ảnh biến thể?"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:113
+msgid "Enable this if you want swatches for this attribute to be auto filled with variation images."
+msgstr "Bật tính năng này nếu bạn muốn các mẫu cho thuộc tính này được tự động điền bằng hình ảnh biến thể."
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:353
+msgid "Value"
+msgstr "Giá trị"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:44
+msgid "UX Color"
+msgstr "Màu UX"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:45
+msgid "UX Image"
+msgstr "Hình ảnh UX"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:46
+msgid "UX Label"
+msgstr "Nhãn UX"
+
+#: inc/extensions/flatsome-wc-quick-view/flatsome-quick-view.php:15
+msgid "Quick View"
+msgstr "Xem nhanh"
+
+#: inc/functions/function-custom-css.php:665
+#: inc/woocommerce/structure-wc-global.php:332
+#: inc/woocommerce/structure-wc-product-box.php:29
+msgid "New"
+msgstr "Mới"
+
+#: inc/functions/function-custom-css.php:666
+msgid "Hot"
+msgstr "Nổi bật"
+
+#: inc/functions/function-custom-css.php:667
+msgid "Sale"
+msgstr "Giảm giá"
+
+#: inc/functions/function-custom-css.php:668
+msgid "Popular"
+msgstr "Phổ biến"
+
+#. translators: %s: The label
+#: inc/functions/function-register.php:55
+msgid "Follow on %s"
+msgstr "Theo dõi trên %s"
+
+#: inc/functions/function-setup.php:114
+#: inc/functions/function-setup.php:252
+msgid "Main Menu"
+msgstr "Menu chính"
+
+#: inc/functions/function-setup.php:115
+msgid "Main Menu - Mobile"
+msgstr "Menu chính - Di động"
+
+#: inc/functions/function-setup.php:116
+msgid "Secondary Menu"
+msgstr "Menu phụ"
+
+#: inc/functions/function-setup.php:117
+msgid "Footer Menu"
+msgstr "Menu chân trang"
+
+#: inc/functions/function-setup.php:118
+msgid "Top Bar Menu"
+msgstr "Menu thanh trên cùng"
+
+#: inc/functions/function-setup.php:119
+msgid "My Account Menu"
+msgstr "Menu tài khoản của tôi"
+
+#: inc/functions/function-setup.php:154
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: inc/functions/function-setup.php:164
+msgid "Footer 1"
+msgstr "Chân trang 1"
+
+#: inc/functions/function-setup.php:174
+msgid "Footer 2"
+msgstr "Chân trang 2"
+
+#: inc/functions/function-setup.php:253
+#: inc/shortcodes/accordion.php:140
+#: woocommerce/single-product/tabs/accordian.php:33
+msgid "Toggle"
+msgstr "Chuyển đổi"
+
+#: inc/functions/function-site-health.php:11
+msgid "Flatsome registration"
+msgstr "Đăng ký Flatsome"
+
+#: inc/functions/function-site-health.php:28
+msgid "Flatsome is registered"
+msgstr "Flatsome đã được đăng ký"
+
+#: inc/functions/function-site-health.php:34
+msgid "Register Flatsome to receive updates."
+msgstr "Đăng ký Flatsome để nhận bản cập nhật."
+
+#: inc/functions/function-site-health.php:40
+msgid "Flatsome is not registered"
+msgstr "Flatsome chưa được đăng ký"
+
+#: inc/functions/function-site-health.php:44
+msgid "Register now"
+msgstr "Đăng ký ngay"
+
+#: inc/functions/function-site-health.php:48
+msgid "Flatsome was unable to receive the latest update"
+msgstr "Flatsome không thể nhận bản cập nhật mới nhất"
+
+#: inc/integrations/wc-yith-wishlist/yith-wishlist.php:73
+#: inc/integrations/wc-yith-wishlist/yith-wishlist.php:96
+#: template-parts/header/partials/element-wishlist-mobile.php:21
+#: template-parts/header/partials/element-wishlist-mobile.php:22
+#: template-parts/header/partials/element-wishlist.php:19
+#: template-parts/header/partials/element-wishlist.php:24
+#: template-parts/header/partials/element-wishlist.php:25
+msgid "Wishlist"
+msgstr "Danh sách yêu thích"
+
+#. translators: %s: Comment count
+#: inc/shortcodes/blog_posts.php:318
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Bình luận"
+
+#: inc/shortcodes/follow.php:127
+#: inc/shortcodes/follow.php:128
+msgid "Follow on Facebook"
+msgstr "Theo dõi trên Facebook"
+
+#: inc/shortcodes/follow.php:141
+#: inc/shortcodes/follow.php:142
+msgid "Follow on Instagram"
+msgstr "Theo dõi trên Instagram"
+
+#: inc/shortcodes/follow.php:155
+#: inc/shortcodes/follow.php:156
+msgid "Follow on TikTok"
+msgstr "Theo dõi trên TikTok"
+
+#: inc/shortcodes/follow.php:172
+#: inc/shortcodes/follow.php:173
+msgid "Follow on SnapChat"
+msgstr "Theo dõi trên SnapChat"
+
+#: inc/shortcodes/follow.php:179
+msgid "Point the SnapChat camera at this to add us to SnapChat."
+msgstr "Hướng camera SnapChat vào đây để thêm chúng tôi vào SnapChat."
+
+#: inc/shortcodes/follow.php:191
+#: inc/shortcodes/follow.php:192
+msgid "Follow on X"
+msgstr "Theo dõi trên X"
+
+#: inc/shortcodes/follow.php:205
+#: inc/shortcodes/follow.php:206
+msgid "Follow on Twitter"
+msgstr "Theo dõi trên Twitter"
+
+#: inc/shortcodes/follow.php:219
+#: inc/shortcodes/follow.php:220
+msgid "Follow on Threads"
+msgstr "Theo dõi trên Threads"
+
+#: inc/shortcodes/follow.php:233
+#: inc/shortcodes/follow.php:234
+msgid "Send us an email"
+msgstr "Gửi email cho chúng tôi"
+
+#: inc/shortcodes/follow.php:247
+#: inc/shortcodes/follow.php:248
+msgid "Call us"
+msgstr "Gọi cho chúng tôi"
+
+#: inc/shortcodes/follow.php:261
+#: inc/shortcodes/follow.php:262
+msgid "Follow on Pinterest"
+msgstr "Theo dõi trên Pinterest"
+
+#: inc/shortcodes/follow.php:275
+#: inc/shortcodes/follow.php:276
+msgid "Subscribe to RSS"
+msgstr "Đăng ký RSS"
+
+#: inc/shortcodes/follow.php:289
+#: inc/shortcodes/follow.php:290
+msgid "Follow on LinkedIn"
+msgstr "Theo dõi trên LinkedIn"
+
+#: inc/shortcodes/follow.php:303
+#: inc/shortcodes/follow.php:304
+msgid "Follow on YouTube"
+msgstr "Theo dõi trên YouTube"
+
+#: inc/shortcodes/follow.php:317
+#: inc/shortcodes/follow.php:318
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/shortcodes/follow.php:331
+#: inc/shortcodes/follow.php:332
+msgid "Follow on 500px"
+msgstr "Theo dõi trên 500px"
+
+#: inc/shortcodes/follow.php:345
+#: inc/shortcodes/follow.php:346
+msgid "Follow on VKontakte"
+msgstr "Theo dõi trên VKontakte"
+
+#: inc/shortcodes/follow.php:359
+#: inc/shortcodes/follow.php:360
+msgid "Follow on Telegram"
+msgstr "Theo dõi trên Telegram"
+
+#: inc/shortcodes/follow.php:373
+#: inc/shortcodes/follow.php:374
+msgid "Follow on Twitch"
+msgstr "Theo dõi trên Twitch"
+
+#: inc/shortcodes/follow.php:387
+#: inc/shortcodes/follow.php:388
+msgid "Follow on Discord"
+msgstr "Theo dõi trên Discord"
+
+#: inc/shortcodes/portfolio.php:146
+#: woocommerce/product-searchform.php:39
+msgid "All"
+msgstr "Tất cả"
+
+#: inc/shortcodes/sections.php:150
+msgid "Scroll for more"
+msgstr "Cuộn để xem thêm"
+
+#: inc/shortcodes/share.php:96
+#: inc/shortcodes/share.php:97
+msgid "Share on WhatsApp"
+msgstr "Chia sẻ trên WhatsApp"
+
+#: inc/shortcodes/share.php:111
+#: inc/shortcodes/share.php:112
+msgid "Share on Facebook"
+msgstr "Chia sẻ trên Facebook"
+
+#: inc/shortcodes/share.php:125
+#: inc/shortcodes/share.php:126
+msgid "Share on X"
+msgstr "Chia sẻ trên X"
+
+#: inc/shortcodes/share.php:139
+#: inc/shortcodes/share.php:140
+msgid "Share on Twitter"
+msgstr "Chia sẻ trên Twitter"
+
+#: inc/shortcodes/share.php:155
+#: inc/shortcodes/share.php:156
+msgid "Share on Threads"
+msgstr "Chia sẻ trên Threads"
+
+#. translators: %s: the share link.
+#: inc/shortcodes/share.php:167
+msgid "Check this out: %s"
+msgstr "Xem này: %s"
+
+#: inc/shortcodes/share.php:171
+#: inc/shortcodes/share.php:172
+msgid "Email to a Friend"
+msgstr "Gửi email cho bạn bè"
+
+#: inc/shortcodes/share.php:189
+#: inc/shortcodes/share.php:190
+msgid "Pin on Pinterest"
+msgstr "Ghim trên Pinterest"
+
+#: inc/shortcodes/share.php:203
+#: inc/shortcodes/share.php:204
+msgid "Share on VKontakte"
+msgstr "Chia sẻ trên VKontakte"
+
+#: inc/shortcodes/share.php:217
+#: inc/shortcodes/share.php:218
+msgid "Share on LinkedIn"
+msgstr "Chia sẻ trên LinkedIn"
+
+#: inc/shortcodes/share.php:231
+#: inc/shortcodes/share.php:232
+msgid "Share on Tumblr"
+msgstr "Chia sẻ trên Tumblr"
+
+#: inc/shortcodes/share.php:245
+#: inc/shortcodes/share.php:246
+msgid "Share on Telegram"
+msgstr "Chia sẻ trên Telegram"
+
+#: inc/shortcodes/ux_instagram_feed.php:52
+msgid "Please select an Instagram account"
+msgstr "Vui lòng chọn một tài khoản Instagram"
+
+#: inc/shortcodes/ux_instagram_feed.php:222
+msgid "Unable to communicate with Instagram."
+msgstr "Không thể liên lạc với Instagram."
+
+#: inc/shortcodes/ux_instagram_feed.php:224
+msgid "An error occurred while retrieving media"
+msgstr "Đã xảy ra lỗi khi truy xuất phương tiện"
+
+#: inc/structure/structure-portfolio.php:50
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Trang chủ"
+
+#: inc/structure/structure-posts.php:139
+msgid "<span class=\"icon-angle-left\"></span> Older posts"
+msgstr "<span class=\"icon-angle-left\"></span> Bài viết cũ hơn"
+
+#: inc/structure/structure-posts.php:144
+msgid "Newer posts <span class=\"icon-angle-right\"></span>"
+msgstr "Bài viết mới hơn <span class=\"icon-angle-right\"></span>"
+
+#: inc/structure/structure-posts.php:168
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/structure/structure-posts.php:184
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">cho biết:</span>"
+
+#: inc/structure/structure-posts.php:186
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ được kiểm duyệt."
+
+#: inc/structure/structure-posts.php:195
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s lúc %2$s"
+
+#. translators: %1$s: post date, %2$s: post author
+#: inc/structure/structure-posts.php:236
+msgctxt "post date by post author"
+msgid "<span class=\"posted-on\">Posted on %1$s</span> <span class=\"byline\">by %2$s</span>"
+msgstr "<span class=\"posted-on\">Đăng vào %1$s</span> <span class=\"byline\">bởi %2$s</span>"
+
+#: inc/widgets/widget-blocks.php:17
+msgid "Display a UX Block."
+msgstr "Hiển thị khối UX."
+
+#: inc/widgets/widget-blocks.php:21
+msgid "Flatsome UX Blocks"
+msgstr "Khối UX Flatsome"
+
+#: inc/widgets/widget-blocks.php:85
+#: inc/widgets/widget-recent-posts.php:129
+#: inc/widgets/widget-upsell.php:120
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: inc/widgets/widget-recent-posts.php:18
+msgid "Display recent posts in Flatsome format."
+msgstr "Hiển thị các bài đăng gần đây theo định dạng Flatsome."
+
+#: inc/widgets/widget-recent-posts.php:22
+msgid "Flatsome Recent Posts"
+msgstr "Bài đăng gần đây Flatsome"
+
+#: inc/widgets/widget-recent-posts.php:49
+msgid "Recent Posts"
+msgstr "Bài viết gần đây"
+
+#: inc/widgets/widget-recent-posts.php:86
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "<strong>1</strong> Comment"
+msgstr "<strong>1</strong> Bình luận"
+
+#: inc/widgets/widget-recent-posts.php:86
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "<strong>%</strong> Comments"
+msgstr "<strong>%</strong> Bình luận"
+
+#: inc/widgets/widget-recent-posts.php:132
+msgid "Number of posts to show"
+msgstr "Số lượng bài viết để hiển thị"
+
+#: inc/widgets/widget-recent-posts.php:136
+msgid "Show thumbnail"
+msgstr "Hiển thị hình thu nhỏ"
+
+#: inc/widgets/widget-recent-posts.php:139
+msgid "Show date stamp on thumbnail"
+msgstr "Hiển thị dấu ngày tháng trên hình thu nhỏ"
+
+#: inc/widgets/widget-recent-posts.php:140
+msgid "* If the \"Show Thumbnail\" option is disabled or no featured image is set, the date stamp will be displayed."
+msgstr "* Nếu tùy chọn \"Hiển thị hình thu nhỏ\" bị tắt hoặc không có hình ảnh nổi bật nào được đặt, dấu ngày tháng sẽ được hiển thị."
+
+#: inc/widgets/widget-upsell.php:20
+msgid "Add upsell products to product pages."
+msgstr "Thêm các sản phẩm bán thêm vào trang sản phẩm."
+
+#: inc/widgets/widget-upsell.php:48
+#: inc/widgets/widget-upsell.php:116
+msgid "Complete the look"
+msgstr "Hoàn thiện vẻ ngoài"
+
+#: inc/woocommerce/class-buy-now.php:100
+msgid "Buy now"
+msgstr "Mua ngay"
+
+#: inc/woocommerce/class-mini-cart.php:168
+msgctxt "mini cart add to cart button label"
+msgid "Add"
+msgstr "Thêm"
+
+#. translators: %s: The threshold
+#: inc/woocommerce/class-shipping.php:160
+msgid "Add %s to cart and get free shipping!"
+msgstr "Thêm %s vào giỏ hàng và được miễn phí vận chuyển!"
+
+#: inc/woocommerce/class-shipping.php:171
+msgid "Your order qualifies for free shipping 🎉"
+msgstr "Đơn hàng của bạn đủ điều kiện để được miễn phí vận chuyển 🎉"
+
+#: inc/woocommerce/structure-wc-category-page.php:97
+#: inc/woocommerce/structure-wc-product-page-fields.php:31
+msgid "Top Content"
+msgstr "Nội dung trên cùng"
+
+#: inc/woocommerce/structure-wc-category-page.php:102
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at top of the category."
+msgstr "Nhập giá trị cho trường này. Cho phép sử dụng mã ngắn. Điều này sẽ được hiển thị ở đầu danh mục."
+
+#: inc/woocommerce/structure-wc-category-page.php:119
+#: inc/woocommerce/structure-wc-product-page-fields.php:38
+msgid "Bottom Content"
+msgstr "Nội dung dưới cùng"
+
+#: inc/woocommerce/structure-wc-category-page.php:124
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at bottom of the category."
+msgstr "Nhập giá trị cho trường này. Cho phép sử dụng mã ngắn. Điều này sẽ được hiển thị ở cuối danh mục."
+
+#: inc/woocommerce/structure-wc-category-page.php:152
+msgid "Choose a custom product block layout for this category."
+msgstr "Chọn bố cục khối sản phẩm tùy chỉnh cho danh mục này."
+
+#: inc/woocommerce/structure-wc-checkout.php:166
+msgid "I have read and agree"
+msgstr "Tôi đã đọc và đồng ý"
+
+#: inc/woocommerce/structure-wc-global.php:94
+msgid "Shop Sidebar"
+msgstr "Thanh bên cửa hàng"
+
+#: inc/woocommerce/structure-wc-global.php:103
+msgid "Product Sidebar"
+msgstr "Thanh bên sản phẩm"
+
+#: inc/woocommerce/structure-wc-global.php:264
+msgid "Posts found"
+msgstr "Bài viết đã tìm thấy"
+
+#: inc/woocommerce/structure-wc-global.php:277
+msgid "Pages found"
+msgstr "Trang đã tìm thấy"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:17
+msgid "Product layout"
+msgstr "Bố cục sản phẩm"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:24
+msgid "Choose a custom product block layout for this product."
+msgstr "Chọn bố cục khối sản phẩm tùy chỉnh cho sản phẩm này."
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:33
+msgid "Enter content that will show after the header and before the product. Shortcodes are allowed"
+msgstr "Nhập nội dung sẽ hiển thị sau tiêu đề và trước sản phẩm. Cho phép sử dụng mã ngắn"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:40
+msgid "Enter content that will show after the product info. Shortcodes are allowed"
+msgstr "Nhập nội dung sẽ hiển thị sau thông tin sản phẩm. Cho phép sử dụng mã ngắn"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:46
+msgid "Extra"
+msgstr "Thêm"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:52
+msgid "Enable a custom bubble on this product."
+msgstr "Bật bong bóng tùy chỉnh trên sản phẩm này."
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:82
+msgid "Custom Tab Content"
+msgstr "Nội dung thẻ tùy chỉnh"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:84
+msgid "Enter content for custom product tab here. Shortcodes are allowed"
+msgstr "Nhập nội dung cho thẻ sản phẩm tùy chỉnh tại đây. Cho phép sử dụng mã ngắn"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:93
+msgid "Product Video"
+msgstr "Video sản phẩm"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:95
+msgid "Enter a Youtube or Vimeo Url of the product video here. We recommend uploading your video to Youtube."
+msgstr "Nhập URL Youtube hoặc Vimeo của video sản phẩm tại đây. Chúng tôi khuyên bạn nên tải video của mình lên Youtube."
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:110
+msgid "Select where you want to display product video."
+msgstr "Chọn nơi bạn muốn hiển thị video sản phẩm."
+
+#: inc/woocommerce/structure-wc-product-page.php:73
+#: inc/woocommerce/structure-wc-product-page.php:139
+msgid "Video"
+msgstr "Video"
+
+#: inc/woocommerce/structure-wc-product-page.php:104
+msgid "Zoom"
+msgstr "Phóng to"
+
+#: inc/woocommerce/structure-wc-product-page.php:307
+msgid "Select options"
+msgstr "Chọn tùy chọn"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Parallax Title"
+msgstr "Trang - Toàn chiều rộng - Tiêu đề Parallax"
+
+#. Template Name of the theme
+msgid "Page - No Header / No Footer"
+msgstr "Trang - Không có tiêu đề / Không có chân trang"
+
+#. Template Name of the theme
+msgid "Page - Vertical Sub-Nav"
+msgstr "Trang - Thanh điều hướng phụ dọc"
+
+#. Template Name of the theme
+msgid "Page - Container - Center Title"
+msgstr "Trang - Vùng chứa - Tiêu đề ở giữa"
+
+#. Template Name of the theme
+msgid "Page - Full Width"
+msgstr "Trang - Toàn chiều rộng"
+
+#. Template Name of the theme
+msgid "WooCommerce - Cart"
+msgstr "WooCommerce - Giỏ hàng"
+
+#. Template Name of the theme
+msgid "WooCommerce - Checkout"
+msgstr "WooCommerce - Thanh toán"
+
+#. Template Name of the theme
+msgid "Portfolio"
+msgstr "Danh mục đầu tư"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Header on Scroll"
+msgstr "Trang - Toàn chiều rộng - Tiêu đề khi cuộn"
+
+#. Template Name of the theme
+msgid "Page - Left Sidebar"
+msgstr "Trang - Thanh bên trái"
+
+#. Template Name of the theme
+msgid "WooCommerce - My Account"
+msgstr "WooCommerce - Tài khoản của tôi"
+
+#. Template Name of the theme
+msgid "Page - Right Sidebar"
+msgstr "Trang - Thanh bên phải"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav - Transparent Header - Light Text"
+msgstr "Trang - Điều hướng trang đơn - Tiêu đề trong suốt - Văn bản sáng"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav - Transparent Header"
+msgstr "Trang - Điều hướng trang đơn - Tiêu đề trong suốt"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav"
+msgstr "Trang - Điều hướng trang đơn"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Transparent Header - Light Text"
+msgstr "Trang - Toàn chiều rộng - Tiêu đề trong suốt - Văn bản sáng"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Transparent Header"
+msgstr "Trang - Toàn chiều rộng - Tiêu đề trong suốt"
+
+#: searchform.php:18
+#: woocommerce/product-searchform.php:65
+msgid "Submit"
+msgstr "Gửi"
+
+#. translators: 1. Template
+#: template-parts/admin/envato/directory-warning.php:13
+msgid "An unusual theme directory name was detected: <em>%s</em>. The Flatsome parent theme should be installed in a directory named <em>flatsome</em> to ensure updates are handled correctly."
+msgstr "Phát hiện tên thư mục giao diện bất thường: <em>%s</em>. Giao diện cha Flatsome nên được cài đặt trong thư mục có tên <em>flatsome</em> để đảm bảo các bản cập nhật được xử lý chính xác."
+
+#: template-parts/admin/envato/register-form.php:25
+msgid "Your site is <strong>registered</strong>. Thank you! Enjoy Flatsome and one-click updates."
+msgstr "Trang web của bạn đã được <strong>đăng ký</strong>. Cảm ơn bạn! Tận hưởng Flatsome và các bản cập nhật bằng một cú nhấp chuột."
+
+#: template-parts/admin/envato/register-form.php:37
+msgid "Your copy of Flatsome appears to be registered using an unsupported or outdated method. Please re-register with a valid purchase code."
+msgstr "Bản sao Flatsome của bạn dường như đã được đăng ký bằng phương pháp không được hỗ trợ hoặc lỗi thời. Vui lòng đăng ký lại bằng mã mua hàng hợp lệ."
+
+#: template-parts/admin/envato/register-form.php:52
+msgid "Registered domain:"
+msgstr "Tên miền đã đăng ký:"
+
+#: template-parts/admin/envato/register-form.php:110
+msgid "Are you sure you want to unregister Flatsome?"
+msgstr "Bạn có chắc chắn muốn hủy đăng ký Flatsome?"
+
+#. translators: 1: Version.
+#: template-parts/admin/envato/version-info-iframe.php:15
+msgid "Version %s"
+msgstr "Phiên bản %s"
+
+#: template-parts/admin/envato/version-info-iframe.php:18
+msgid "Read change log here"
+msgstr "Đọc nhật ký thay đổi tại đây"
+
+#: template-parts/footer/back-to-top.php:22
+msgid "Go to top"
+msgstr "Lên đầu trang"
+
+#: template-parts/header/partials/element-contact-mobile.php:38
+#: template-parts/header/partials/element-contact.php:33
+msgid "Location"
+msgstr "Địa điểm"
+
+#: template-parts/header/partials/element-contact-mobile.php:47
+#: template-parts/header/partials/element-contact.php:52
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: template-parts/header/partials/element-contact-mobile.php:81
+#: template-parts/header/partials/element-contact.php:92
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: template-parts/header/partials/element-menu-icon.php:13
+#: template-parts/header/partials/element-menu-icon.php:17
+#: template-parts/overlays/overlay-menu.php:45
+msgid "Menu"
+msgstr "Menu"
+
+#: template-parts/header/partials/element-nav-vertical.php:33
+#: template-parts/overlays/overlay-menu.php:50
+msgid "Categories"
+msgstr "Danh mục"
+
+#: template-parts/portfolio/portfolio-summary-full.php:30
+#: template-parts/portfolio/portfolio-summary.php:26
+msgid "Tags"
+msgstr "Thẻ"
+
+#: template-parts/posts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Không tìm thấy gì"
+
+#: template-parts/posts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sẵn sàng xuất bản bài đăng đầu tiên của bạn? <a href=\"%1$s\">Bắt đầu tại đây</a>."
+
+#: template-parts/posts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Xin lỗi, nhưng không có kết quả nào phù hợp với cụm từ tìm kiếm của bạn. Vui lòng thử lại với một số từ khóa khác."
+
+#: template-parts/posts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Dường như chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm. Có lẽ tìm kiếm có thể giúp ích."
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/posts/content-single.php:31
+#: template-parts/posts/content-single.php:34
+#: template-parts/posts/partials/entry-footer-single.php:14
+#: template-parts/posts/partials/entry-footer-single.php:22
+#: template-parts/posts/partials/entry-footer.php:14
+#: template-parts/posts/partials/entry-footer.php:22
+#: template-parts/posts/partials/entry-title.php:12
+#: template-parts/posts/partials/entry-title.php:17
+msgid ", "
+msgstr ", "
+
+#: template-parts/posts/content-single.php:39
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Bài viết này được đăng trong %1$s và được gắn thẻ %2$s."
+
+#: template-parts/posts/content-single.php:41
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Bài viết này được đăng trong %1$s. Đánh dấu <a href=\"%3$s\" title=\"Liên kết thường trực đến %4$s\" rel=\"bookmark\">liên kết thường trực</a>."
+
+#: template-parts/posts/content.php:15
+#: template-parts/posts/content.php:19
+#: template-parts/posts/featured-posts.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tiếp tục đọc <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/posts/loop/post-simple.php:28
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s Bình luận"
+
+#: template-parts/posts/partials/archive-title.php:17
+msgid "Category Archives: %s"
+msgstr "Lưu trữ danh mục: %s"
+
+#: template-parts/posts/partials/archive-title.php:20
+msgid "Tag Archives: %s"
+msgstr "Lưu trữ thẻ: %s"
+
+#: template-parts/posts/partials/archive-title.php:23
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: template-parts/posts/partials/archive-title.php:30
+msgid "Author Archives: %s"
+msgstr "Lưu trữ tác giả: %s"
+
+#: template-parts/posts/partials/archive-title.php:38
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: template-parts/posts/partials/archive-title.php:41
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#: template-parts/posts/partials/archive-title.php:44
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ hàng năm: %s"
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Asides"
+msgstr "Bên lề"
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Images"
+msgstr "Hình ảnh"
+
+#: template-parts/posts/partials/archive-title.php:53
+msgid "Videos"
+msgstr "Video"
+
+#: template-parts/posts/partials/archive-title.php:56
+msgid "Quotes"
+msgstr "Trích dẫn"
+
+#: template-parts/posts/partials/archive-title.php:59
+msgid "Links"
+msgstr "Liên kết"
+
+#: template-parts/posts/partials/entry-footer-single.php:17
+#: template-parts/posts/partials/entry-footer.php:17
+msgid "Posted in %1$s"
+msgstr "Đăng trong %1$s"
+
+#: template-parts/posts/partials/entry-footer-single.php:27
+#: template-parts/posts/partials/entry-footer.php:27
+msgid "Tagged %1$s"
+msgstr "Được gắn thẻ %1$s"
+
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "Leave a comment"
+msgstr "Để lại bình luận"
+
+#: woocommerce/checkout/header-small.php:36
+#: woocommerce/checkout/header.php:38
+msgid "Shopping Cart"
+msgstr "Giỏ hàng"
+
+#: woocommerce/checkout/header-small.php:41
+#: woocommerce/checkout/header.php:43
+msgid "Checkout details"
+msgstr "Chi tiết thanh toán"
+
+#: woocommerce/checkout/header-small.php:46
+#: woocommerce/checkout/header.php:48
+msgid "Order Complete"
+msgstr "Đơn hàng hoàn tất"
+
+#: woocommerce/checkout/social-login.php:17
+#: woocommerce/myaccount/header.php:71
+msgid "Login with <strong>Facebook</strong>"
+msgstr "Đăng nhập bằng <strong>Facebook</strong>"
+
+#: woocommerce/checkout/social-login.php:28
+#: woocommerce/myaccount/header.php:81
+msgid "Login with <strong>Google</strong>"
+msgstr "Đăng nhập bằng <strong>Google</strong>"
+
+#: woocommerce/myaccount/form-login-lightbox-left-panel.php:78
+#: woocommerce/myaccount/form-login-lightbox-right-panel.php:120
+msgid "Don't have an account? Register one!"
+msgstr "Chưa có tài khoản? Đăng ký ngay!"
+
+#: woocommerce/myaccount/form-login-lightbox-left-panel.php:79
+#: woocommerce/myaccount/form-login-lightbox-right-panel.php:121
+msgid "Register an Account"
+msgstr "Đăng ký tài khoản"
+
+#: inc/blocks/uxbuilder/block.json
+msgctxt "block title"
+msgid "UX Builder content"
+msgstr "Nội dung UX Builder"
+
+#: inc/blocks/uxbuilder/block.json
+msgctxt "block description"
+msgid "This block contains content created with UX Builder."
+msgstr "Khối này chứa nội dung được tạo bằng UX Builder."
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Chính"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Phụ"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Success"
+msgstr "Thành công"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Alert"
+msgstr "Cảnh báo"
+

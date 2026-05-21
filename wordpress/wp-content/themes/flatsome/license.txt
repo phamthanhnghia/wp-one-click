@@ -1,0 +1,7 @@
+This theme and its plugins/extensions are comprised of two parts.
+
+(1) The PHP code and integrated HTML are licensed under the General Public License (GPL). You will find a copy of the GPL below.
+
+(2) All other parts, including but not limited to the CSS code, JavaScript code, images, and design, are licensed according to the license purchased from Envato.
+
+Read more about licensing here: http://themeforest.net/licenses

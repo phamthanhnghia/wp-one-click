@@ -1,0 +1,20 @@
+/*
+Theme Name:           Flatsome
+Theme URI:            http://flatsome.uxthemes.com
+Author:               UX-Themes
+Author URI:           https://uxthemes.com
+Description:          Multi-Purpose Responsive WooCommerce Theme
+Version:              3.20.4
+Requires at least:    6.4
+Requires PHP:         7.4
+WC requires at least: 8.3
+Text Domain:          flatsome
+License:              https://themeforest.net/licenses
+License URI:          https://themeforest.net/licenses
+*/
+
+
+/***************
+All custom CSS should be added to Flatsome > Advanced > Custom CSS,
+or in the style.css of a Child Theme.
+***************/

@@ -1,2 +1,5 @@
 /.env
-/wordpress/
+/wordpress/*
+
+!/wordpress/wp-content/themes/flatsome/
+!/wordpress/wp-content/themes/flatsome-child/

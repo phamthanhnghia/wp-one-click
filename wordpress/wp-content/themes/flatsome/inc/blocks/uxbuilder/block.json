@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "UX Builder content",
+  "description": "This block contains content created with UX Builder.",
+  "name": "flatsome/uxbuilder",
+  "category": "common",
+  "supports": {
+    "html": true,
+    "align": false,
+    "inserter": false,
+    "reusable": false,
+    "className": false,
+    "customClassName": false,
+    "defaultStylePicker": false
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html"
+    }
+  }
+}
